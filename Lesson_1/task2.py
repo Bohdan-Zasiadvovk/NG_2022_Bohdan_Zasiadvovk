@@ -33,4 +33,5 @@ else:
 
 if result % 1 == 0:
     result = round(result)
+
 print("\nResult:", result)
