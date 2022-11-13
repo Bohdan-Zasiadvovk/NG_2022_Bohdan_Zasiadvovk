@@ -1,6 +1,6 @@
 number = int(input("Input number: "))
 factorial = 1
-for i in range(1, number + 1):
-    factorial *= i
+for step in range(1, number + 1):
+    factorial *= step
 
 print("Factorial: ", factorial)
